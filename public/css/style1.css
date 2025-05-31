@@ -1,0 +1,202 @@
+
+* {
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.site‐header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header‐inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #202020;
+}
+
+.nav‐right .login‐btn {
+  text-decoration: none;
+  font-weight: 500;
+  color: #4285f4;
+  padding: 8px 16px;
+  border: 1px solid #4285f4;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.nav‐right .login‐btn:hover {
+  background-color: #4285f4;
+  color: #ffffff;
+}
+
+.hero‐section {
+  background-color: #faf8f4;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero‐inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hero‐inner h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: #202020;
+}
+.cta‐button {
+  background-color: #ff4c68;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 12px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cta‐button:hover {
+  background-color: #e2435e;
+}
+
+
+.categories‐section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.section‐title {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #202020;
+}
+.categories‐grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.category‐card {
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+
+#cat‐furniture    { background-color: #4a90e2; }
+#cat‐handbag      { background-color: #f5a623; }  
+#cat‐sneakers     { background-color: #7ed321; } 
+#cat‐gadgets      { background-color: #bd10e0; }  
+
+
+.arrivals‐section {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.arrivals‐grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.arrival‐card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #555;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.info‐row {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+.info‐item {
+  flex: 1 1 200px;
+  text-align: center;
+}
+.info‐item span {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.info‐item small {
+  color: #777;
+}
+
+
+.site‐footer {
+  background-color: #202020;
+  color: #eeeeee;
+  padding: 20px 0;
+}
+.footer‐inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer‐left p,
+.footer‐right p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.footer‐right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.social‐list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.social‐list li a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.social‐list li a:hover {
+  color: #ff4c68;
+}
